@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    align-content: center;
+    margin-top: 2.5em; 
+    height:18em;
+    width:14.5em;
+    border:2px solid black;
+    border-radius: 9px;
+    background-color: orange;
+
+}
+h1{
+    width: 8em;
+    height: 1.75em;
+    margin-top:-12px;
+    margin-left:7px;
+    background: rgb(255, 102, 0);
+    border:2px solid black;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 1em;
+}
+img{
+    width: 8.5em;
+    height: 9em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+p{
+    font-size: .7em;
+    text-align: left;
+}
+#datos{
+    width: 100%;
+    padding-left: .7em;
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-start;
+}
+#comentario{
+    padding-left: .7em;
+    padding-right: .5em;
+    width: 100%;
+}
+
